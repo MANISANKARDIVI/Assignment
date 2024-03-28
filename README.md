@@ -13,6 +13,19 @@ Step 1: Download the assignment files from this link https://drive.google.com/fi
 
 Step 2: Check if Node.js is installed on your computer, if not then install it
 
+## Install git 
+```bash
+sudo yum update -y
+
+sudo yum install git -y
+```
+
+## Git clone repository
+```bash
+git clone https://github.com/MANISANKARDIVI/Assignment.git
+
+cd Assignment
+```
 
 ## Install Docker in CentOS / RedHat
 ```bash
