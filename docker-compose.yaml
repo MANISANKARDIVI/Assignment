@@ -1,0 +1,11 @@
+---
+#version: "3.8"            #! if u want u can mention 
+services:
+  nodejsapp:
+    build: .
+    image: nodejs-compose-image
+    container_name: nodejs-compose-container
+    restart: on-failure
+    ports:
+      - "3000:3000"
+...
