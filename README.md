@@ -65,7 +65,7 @@ sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-c
 
 sudo chmod +x /usr/local/bin/docker-compose 
 
-docker compose --version
+docker-compose --version
 ```
 
 ## Install Node.js in Ubuntu
